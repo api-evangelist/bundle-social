@@ -1,4 +1,4 @@
-# bundle.social
+# Bundle SP. Z O.O.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,13 +64,13 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bundle.social provides a unified social media API that enables developers to publish content, retrieve analytics, and manage comments across platforms such as Instagram, TikTok, YouTube, Facebook, and more. The service offers API key authentication via the x-api-key header, a consistent /api/v1 prefix for endpoints, and clear rate-limit guidance. It positions itself as an unlimited-account alternative to Zernio and Ayrshare, targeting automation tools and developers seeking scalable social media integration.
+Bundle.social offers a unified social media API that lets developers publish content, retrieve analytics, manage comments, and handle direct messages and automations across major platforms including Instagram, TikTok, YouTube, Facebook and more. The service provides unlimited social accounts on paid plans, with tiered pricing and a free tier. It uses an API key in the x-api-key header for authentication and versioned endpoints under /api/v1. Documentation, SDKs, and examples are available for rapid integration.
 
 **Areas:** Social · Media · API · Integration · Unlimited · Automation
 
-## bundle.social on APIs.io
+## Bundle SP. Z O.O. on APIs.io
 
-Everything profiled for bundle.social is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bundle-social/](https://apis.io/providers/bundle-social/)** — or go straight to one of the APIs or properties below.
+Everything profiled for Bundle SP. Z O.O. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bundle-social/](https://apis.io/providers/bundle-social/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (14)
 
@@ -93,44 +93,50 @@ Everything profiled for bundle.social is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Bundle Social Webhooks](https://apis.io/asyncapis/bundle-social/bundle-social-webhooks/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Bundle Social Agentic Access](https://apis.io/agentic-access/bundle-social/bundle-social-agentic-access/)
+- [Bundle SP. Z O.O. Agentic Access](https://apis.io/agentic-access/bundle-social/bundle-social-agentic-access/)
 
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
 
-- [bundle.social API Rules](https://apis.io/rules/bundle-social/bundle-social-rules/)
+- [Bundle SP. Z O.O. API Rules](https://apis.io/rules/bundle-social/bundle-social-rules/)
 
 #### Security (4)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Bundle Social Authentication](https://apis.io/security/bundle-social/bundle-social-authentication/)
-- [Bundle Social Domain Security](https://apis.io/security/bundle-social/bundle-social-domain-security/)
-- [Bundle Social Trust Center](https://apis.io/security/bundle-social/bundle-social-trust-center/)
-- [Bundle Social Vulnerability Disclosure](https://apis.io/security/bundle-social/bundle-social-vulnerability-disclosure/)
+- [Bundle SP. Z O.O. Authentication](https://apis.io/security/bundle-social/bundle-social-authentication/)
+- [Bundle SP. Z O.O. Domain Security](https://apis.io/security/bundle-social/bundle-social-domain-security/)
+- [Bundle SP. Z O.O. Trust Center](https://apis.io/security/bundle-social/bundle-social-trust-center/)
+- [Bundle SP. Z O.O. Vulnerability Disclosure](https://apis.io/security/bundle-social/bundle-social-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Bundle Social Scopes](https://apis.io/scopes/bundle-social/bundle-social-scopes/)
+- [Bundle SP. Z O.O. Scopes](https://apis.io/scopes/bundle-social/bundle-social-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Bundle Social Plans Pricing](https://apis.io/plans/bundle-social/bundle-social-plans-pricing/)
+- [Bundle SP. Z O.O. Plans Pricing](https://apis.io/plans/bundle-social/bundle-social-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Bundle Social Rate Limits](https://apis.io/rate-limits/bundle-social/bundle-social-rate-limits/)
+- [Bundle SP. Z O.O. Rate Limits](https://apis.io/rate-limits/bundle-social/bundle-social-rate-limits/)
 
 ## Where to find this API
 
@@ -150,21 +156,22 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Terms of service](https://bundle.social/terms)
 - [Privacy policy](https://bundle.social/privacy)
 - [GitHub](https://github.com/bundleglobal)
+- [Status](https://bundlesocial.betteruptime.com/)
 
 ## API Evangelist rating
 
-**Kin Score 71.6** — exemplar · rubric 0.26.0 · scored 2026-11-02
+**Kin Score 89.9** — exemplar · rubric 0.27.0 · scored 2026-11-11
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 45.3 |
+| Discoverability | 81.7 |
+| Contract quality | 56.0 |
 | Contract governance | 79.1 |
-| Operational transparency | 60.0 |
-| Developer ergonomics | 70.7 |
-| Access clarity | 88.9 |
+| Operational transparency | 83.7 |
+| Developer ergonomics | 94.5 |
+| Access clarity | 83.7 |
 
-**Agent readiness 61.8** — agent-ready (gated down from agent-native)
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -172,26 +179,26 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | served (partial credit) |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | documented (partial credit) |
-| OpenAPI Examples | — |
+| OpenAPI Examples | documented (partial credit) |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | — |
+| Event Surface Described | unknown |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | conformant |
 | Dry Run Mode | yes |
-| Delegated Identity | served (partial credit) |
-| Protected Resource Metadata | verified |
-| Dynamic Client Registration | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 45.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 56.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bundle-social/](https://apis.io/providers/bundle-social/).
 
@@ -199,7 +206,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for bundle.social: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bundle SP. Z O.O.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
